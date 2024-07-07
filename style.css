@@ -1,0 +1,131 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+/* Define font families */
+body {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+    line-height: 1.6;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.recipe-intro {
+    margin-bottom: 20px;
+}
+
+.recipe-intro p {
+    line-height: 1.6;
+}
+
+.preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recipe-details h2 {
+    margin-top: 30px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.recipe-details ul, .recipe-details ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe-details li {
+    margin-bottom: 5px;
+}
+
+.recipe-nutrition {
+    margin-top: 30px;
+}
+
+.recipe-nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recipe-nutrition th, .recipe-nutrition td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.recipe-nutrition th {
+    background-color: hsl(30, 54%, 90%);
+}
+
+footer {
+    background-color: hsl(24, 5%, 18%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
