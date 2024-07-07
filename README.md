@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/bossthekhani/recipe_page_challenge)
+- Live Site URL: [Live Preview](https://recipe-page-challenge-one.vercel.app/)
 
 ## My process
 
@@ -54,7 +54,7 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Preview](https://www.your-site.com)
+- Website - [Preview](https://recipe-page-challenge-one.vercel.app/)
 - Frontend Mentor - [@bossthekhani](https://www.frontendmentor.io/profile/bossthekhani)
 - Twitter - [@imumair22](https://www.twitter.com/imumair22)
 
